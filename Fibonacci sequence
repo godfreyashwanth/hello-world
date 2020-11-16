@@ -1,0 +1,19 @@
+#To create and orint the nth fibonacci sequence
+#Follow the below steps
+# 1.Define a function and enter the values
+# 2.Use "where" module to check the conditon
+# 3.Get the inout from user and then call the function careated.
+def formula():
+    a=0
+    b=1
+    c=0
+    d=1
+while(d<=n):
+    print(c,end='')
+    d=+1
+    a=b
+    b=c
+    c=a+b
+n=int(input("enter the number of trens you want:"))
+fromula()
+# Hence the output will be displayed    
