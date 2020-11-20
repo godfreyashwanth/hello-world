@@ -1,0 +1,14 @@
+#first get the numbers to sorted using bubble sort in list (datatype)
+#use len() function find the lenth of the list 
+#use for to travese throught the whole list of numbers
+#then we use anothe for function insed the previous for function 
+#we compare the first and second elements of the list 
+#swap the values if required 
+a=list(input("enter the list of numbers:"))       
+n=len(a)
+for i in range(n):
+    for j in range(0,n-i-1):
+        if a[j]>a[j+1]:
+            a[j],a[j+1]=a[j+1],a[j] #here we are swapping the values 
+print("The sorted list is:",a)        
+#thus the sorted list is displayed
