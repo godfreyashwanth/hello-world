@@ -2,7 +2,7 @@
 #Follow the below steps
 # 1.Define a function and enter the values
 # 2.Use "where" module to check the conditon
-# 3.Get the inout from user and then call the function careated.
+# 3.Get the input from user and then call the function careated.
 def formula():
     a=0
     b=1
