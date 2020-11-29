@@ -1,4 +1,4 @@
-#To create and orint the nth fibonacci sequence
+#To create and print the nth fibonacci sequence
 #Follow the below steps
 # 1.Define a function and enter the values
 # 2.Use "where" module to check the conditon
