@@ -1,0 +1,57 @@
+#stack coding
+def isemoty(stk):
+  if stk=[]:
+    return True
+  else:
+    retuen False
+def push(stk,items):
+  stk.append(items)
+def pop(stk):
+  if isempty(stk):
+    return "Underflow"
+  else:
+    item=stk.pop(-1)
+    retuen item
+def peep(stk):
+  if isempty(stk):
+    return "Underflow"
+  else:
+    return stk(-1)
+def display:
+  if isempty(stk):
+    print("Stack is empty")
+  else:
+    for i in stk:
+      print(i)
+ 
+ Stack=[]
+ while True:
+  print("Stack operations")
+  print("1.push")
+  print("2.pop")
+  print("3.peek")
+  print("4.display")
+  print("5.exit")
+ch=int(input("enter your choice:"))
+if ch==1:
+  item=int(input("enter the number:"))
+  push(Stack,item)
+elif ch==2:
+  item=pop(Stack)
+  if item=="Underflow":
+    print("The stack is empty")
+   else:
+    print("The pop value:",item)
+elif ch==3:
+  item=peek(Stack)
+  if item=="Underflow":
+    print("The stack is empty")
+  else:
+    print("The top value is:",item)
+elif ch==4:
+  display(Stack)
+elif ch==5:
+  break
+else:
+  print("The choice is out of range 1-5")
+   
